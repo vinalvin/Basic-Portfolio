@@ -22,8 +22,17 @@ footer {
     color: #fff;
     position: fixed;
 }
-ul {
+ul li{
     float: right;
     display: inline;
-    padding: 0;
+    widows: 30%;
+}
+.row li{
+    border: 10px solid black;
+}
+ul li:first-child {
+    color: yellow;
+}
+ul:hover {
+    background-color: aqua;
 }
