@@ -2,7 +2,7 @@ html {
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 100px;
+    height: 100%;
 }
 header {
     width: 100%;
@@ -36,6 +36,19 @@ footer {
     text-align: center;
     background-color: #4aaaa5;
 }
+.header-content-container > ul {
+    float: right;
+    width: auto;
+    height: 100%;
+    color: #777;
+}
+.header-content-container > ul > li {
+    display: inline;
+    padding: 20px;
+    text-align: center;
+    color: aqua;
+    border-right: 1px solid #ccc;
+}
 section {
     width: 960px;
     height: 100%;
@@ -44,7 +57,7 @@ section {
 .content-container {
     margin: 0 auto;
     width: 960px;
-    height: 100%;
+    height: 500px;
     background-color: #fff;
 }
 ul li{
@@ -56,7 +69,7 @@ ul li{
     border: 10px solid black;
 }
 ul li:first-child {
-    color: yellow;
+    color: white;
 }
 ul:hover {
     background-color: aqua;
