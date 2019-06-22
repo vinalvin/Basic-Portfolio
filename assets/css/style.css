@@ -22,6 +22,31 @@ footer {
     color: #fff;
     position: fixed;
 }
+.header-content-container {
+    margin: 0 auto;
+    width: 960px;
+    height: 100%;
+    color: #fff;
+}
+.header-content-container > .name {
+    display: inline-block;
+    width: 200px;
+    height: 100%;
+    line-height: 100px;
+    text-align: center;
+    background-color: #4aaaa5;
+}
+section {
+    width: 960px;
+    height: 100%;
+    background-color: black;
+}
+.content-container {
+    margin: 0 auto;
+    width: 960px;
+    height: 100%;
+    background-color: #fff;
+}
 ul li{
     float: right;
     display: inline;
